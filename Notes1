@@ -1,0 +1,5 @@
+Message passing is the same thing as a function call in other traditional (procedure based) languages.  
+This term is used to emphazise that objects are used in Object Oriented Languages.  When a method call occurs such as object.method(),
+it is to be considered that the message method() is sent to object. 
+
+p11 CS eBook: Data Structures and Algorithms in Java
