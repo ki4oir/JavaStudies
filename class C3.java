@@ -11,16 +11,17 @@ class C3 {
 	}
 	public static void main(String[] args) {
 		C3 c1 = new C3();
-		c1.display();
+		c1.display(); // prints 1 1
 		C3 c2 = new C3();
-		c1.display();
-		c2.display();
+		c1.display(); //prints 2 1
+		c2.display(); //prints 2 1
+		
 		C3.n = 10;
 		c1.display();
 		c2.display();
 		c1.m = 11;
 		c2.m = 12;
-		c2.n = 14; //this static field C3.n should be accessed in a static way
+		C3.n = 14; //c2.n = 14; //this static field C3.n should be accessed in a static way
 		c1.display();
 		c2.display();
 		C3.n = 16;
